@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=100px, initial-scale=.5" />
+    <link rel="stylesheet" href="./popup.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt" />
+  </head>
+  <body id="bg">
+    <template id="li_template">
+      <li>
+        <a>
+          <h3 class="title">Tab Title</h3>
+          <p class="pathname">Tab Pathname</p>
+        </a>
+      </li>
+    </template>
+
+    <h1 style="font-family:prompt;" style="color:#2b4365">CharityClick</h1>
+    <flex>
+      <h3 style="font-family:prompt;">Focus Mode: </h3> 
+      <label class="switch">
+        <input type="checkbox" id="focusToggle">
+        <span class="slider round"></span>
+      </label>
+    </flex>
+    <ul></ul>
+
+    <script src="./popup.js" ></script>
+  </body>
+</html>

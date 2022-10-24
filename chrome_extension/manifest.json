@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "CharityClick",
+  "version": "1.0",
+  "description": "Turning distractions into donations",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>",
+    "scripting",
+    "http://*/*",
+    "https://*/*",
+    "*",
+    "background",
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": ["http://localhost:3000/*", "<all_urls>"]
+}
