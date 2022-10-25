@@ -1,4 +1,5 @@
-### HackGT 9 Best Overall - Emerging
+# CharityClick
+### ✨ HackGT 9 Best Overall - Emerging ✨
 
 ## Inspiration
 
@@ -15,6 +16,8 @@ We used React.js, Node.js, and MongoDB to build a website and Chrome Extension t
 ## Demo
 
 https://youtu.be/c7ZEHynWz_k
+
+---
 
 ## Getting Started
 
